@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM node:lts-alpine
 MAINTAINER Emmanuel Frecon <efrecon@gmail.com>
 
 RUN npm install -g localtunnel
